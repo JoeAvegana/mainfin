@@ -16,6 +16,7 @@ package org.example;
 */
  public class Main {
     public static void main(String[] args) {
+    String[] arr = {"Sfweq", "23423", "132", "f", "aaaaaaa"};
 
 
     }
