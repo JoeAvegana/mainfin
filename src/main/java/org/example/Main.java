@@ -21,7 +21,6 @@ import java.util.List;
  public class Main {
     public static void main(String[] args) {
     String[] arr = {"Sfweq", "23423", "132", "f", "aaaaaaa"};
-    String temp="null";
         List newarr = new ArrayList();
     for (int i = 0; i < arr.length ; i++) {
             if(arr[i].length()<=3){
