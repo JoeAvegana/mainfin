@@ -1,4 +1,8 @@
 package org.example;
+
+import java.util.ArrayList;
+import java.util.List;
+
 /**      1. Создать репозиторий на GitHub
         2. Нарисовать блок-схему алгоритма (можно обойтись блок-схемой основной содержательной части, если вы выделяете её в отдельный метод)
         3. Снабдить репозиторий оформленным текстовым описанием решения (файл README.md)
@@ -17,7 +21,15 @@ package org.example;
  public class Main {
     public static void main(String[] args) {
     String[] arr = {"Sfweq", "23423", "132", "f", "aaaaaaa"};
-
-
+    String temp="null";
+        List newarr = new ArrayList();
+    for (int i = 0; i < arr.length ; i++) {
+            if(arr[i].length()<=3){
+                newarr.add(arr[i]);
+            }
+        }
+        for (int i = 0; i < newarr.size(); i++) {
+            System.out.println(newarr.get(i));
+        }
     }
 }
